@@ -11,6 +11,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#ffff00"
+        android:textColor="@color/black"
         android:text="Android Button"/>
     <Button
         android:layout_width="wrap_content"
@@ -19,6 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="300dp"
+        android:backgroundTint="@color/purple"
         android:text="Android Button"/>
     <Button
         android:layout_width="wrap_content"

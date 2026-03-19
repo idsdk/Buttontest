@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textSize="50sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textSize속성"/>
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textColor 속성"
+        android:textColor="@color/purple"/>
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="textStyle 속성"
+        android:textStyle="bold|italic"/>
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="typeface 속성"
+        android:typeface="sans"/>
+    <TextView
+        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SingleLine 속성 SingleLine 속성 SingleLine 속성 SingleLine 속성"
+        android:singleLine="true"/>
+</LinearLayout>
